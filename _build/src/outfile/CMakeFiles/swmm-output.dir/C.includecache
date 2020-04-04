@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/outfile/include/swmm_output.h
+swmm_output_enums.h
+../src/outfile/include/swmm_output_enums.h
+swmm_output_export.h
+../src/outfile/include/swmm_output_export.h
+
+../src/outfile/include/swmm_output_enums.h
+
+../src/outfile/include/swmm_output_export.h
+
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/errormanager.c
+stdlib.h
+-
+string.h
+-
+errormanager.h
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/errormanager.h
+
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/errormanager.h
+
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/messages.h
+
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/swmm_output.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errormanager.h
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/errormanager.h
+messages.h
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/messages.h
+swmm_output.h
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/outfile/swmm_output.h
+

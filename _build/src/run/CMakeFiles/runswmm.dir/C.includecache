@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/solver/include/swmm5.h
+
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/run/main.c
+stdio.h
+-
+string.h
+-
+time.h
+-
+swmm5.h
+/home/erikbeck/OtherGits/Stormwater-Management-Model/src/run/swmm5.h
+
