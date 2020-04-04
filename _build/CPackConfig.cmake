@@ -19,7 +19,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "/usr/share/cmake/Templates/CPack.Gen
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "swmm-solver built using CMake")
 set(CPACK_GENERATOR "ZIP")
 set(CPACK_INSTALL_CMAKE_PROJECTS "/home/erikbeck/OtherGits/Stormwater-Management-Model/_build;swmm-solver;ALL;/")
-set(CPACK_INSTALL_PREFIX "/home/erikbeck/OtherGits/Stormwater-Management-Model/_build/install")
+set(CPACK_INSTALL_PREFIX "/usr/local")
 set(CPACK_MODULE_PATH "/home/erikbeck/OtherGits/Stormwater-Management-Model/cmake")
 set(CPACK_NSIS_DISPLAY_NAME "swmm-solver 5.1.14")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
