@@ -7,7 +7,10 @@
 # Author: Michael E. Tryby
 #         US EPA ORD/CESER
 #
-
+#
+# Testing Modified For Linux
+# 7 April 2020, beck.erik@epa.gov
+#
 
 cmake_minimum_required (VERSION 3.13)
 
@@ -21,6 +24,11 @@ project(swmm-solver
     LANGUAGES C CXX
     )
 
+# Adding for (hopefully) linux builds
+
+include(GNUInstallDirs)
+  
+  
 # Append local dir to module search path
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
