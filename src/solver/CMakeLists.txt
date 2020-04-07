@@ -7,7 +7,11 @@
 # Author: Michael E. Tryby
 #         US EPA ORD/CESER
 #
-
+#
+# Modified April 7, 2020 to enable Linux Compile and install
+#
+#  beck.erik@epa.gov
+#
 
 find_package(OpenMP)
 
@@ -73,7 +77,7 @@ target_include_directories(swmm5
 
 install(TARGETS swmm5 EXPORT swmm5Targets
     RUNTIME    DESTINATION "${TOOL_DIST}"
-    LIBRARY    DESTINATION "${TOOL_DIST}"
+    LIBRARY    DESTINATION "${LIBRARY_DIST}"
     ARCHIVE    DESTINATION "${LIBRARY_DIST}"
     FRAMEWORK  DESTINATION "${TOOL_DIST}"
     )

@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/FindOpenMP.cmake"
   "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake/Modules/GNUInstallDirs.cmake"
   "/usr/share/cmake/Modules/GenerateExportHeader.cmake"
   "/usr/share/cmake/Modules/InstallRequiredSystemLibraries.cmake"
   "/usr/share/cmake/Modules/Internal/CMakeCheckCompilerFlag.cmake"
