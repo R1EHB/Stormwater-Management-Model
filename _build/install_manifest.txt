@@ -6,6 +6,6 @@
 /usr/local/include/swmm_output.h
 /usr/local/include/swmm_output_enums.h
 /usr/local/include/swmm_output_export.h
-/usr/local/bin/libswmm5.so
+/usr/local/lib/libswmm5.so
 /usr/local/include/swmm5.h
 /usr/local/bin/runswmm
