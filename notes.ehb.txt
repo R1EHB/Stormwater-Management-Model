@@ -1,0 +1,37 @@
+mkdir build
+cd build
+cmake ..
+cmake --build .
+
+
+creates in build/bin
+libswmm5.so and runswmm
+
+/home/erikbeck/OtherGits/SWMM-EPANET_User_Interface/supplemental/swmm-python-dev/swmm_python/output/swmm/output
+
+
+Can use either c or c++ with swig to create the wrapper.
+Have more success with C, but sometimes c++ can help find an error.
+
+swig -c++ -python -py3 output.i (goSwig.sh)
+python setup.py build (use either the c or c++ version, see softlink)
+
+
+it generates:
+(in SWMM-EPANET_User_Interface/supplemental/swmm-python-dev/swmm_python/output/swmm/output) 
+build/lib.linux-x86_64-3.8/swmm/output/_output.cpython-38-x86_64-linux-gnu.so
+
+copy this file to:
+
+/home/erikbeck/OtherGits/SWMM-EPANET_User_Interface/SWMM-pyUI-topDir/Externals/swmm/outputapi
+
+then create a link from output.pyd to the above file
+
+and copy /home/erikbeck/OtherGits/SWMM-EPANET_User_Interface/supplemental/swmm-python-dev/swmm_python/output/swmm/output/output.py to 
+
+/home/erikbeck/OtherGits/SWMM-EPANET_User_Interface/SWMM-pyUI-topDir/Externals/swmm/outputapi
+
+
+
+
+
